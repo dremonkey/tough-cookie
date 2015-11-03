@@ -54,7 +54,8 @@
   },
   "main": "./lib/cookie",
   "files": [
-    "lib"
+    "lib",
+    "package.json"
   ],
   "scripts": {
     "suffixup": "curl -o public_suffix_list.dat https://publicsuffix.org/list/public_suffix_list.dat && ./generate-pubsuffix.js",
